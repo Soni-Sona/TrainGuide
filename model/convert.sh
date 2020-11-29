@@ -1,0 +1,3 @@
+# saved_model_cli show --dir saved_model --tag_set serve --signature_def serving_default
+# tensorflowjs_converter --input_format=tf_saved_model --output_node_names='detection_anchor_indices,detection_boxes,detection_classes,detection_multiclass_scores,detection_scores,num_detections,raw_detection_boxes,raw_detection_scores' --saved_model_tags=serve --output_format=tfjs_graph_model saved_model web_model
+tensorflowjs_converter --input_format=tf_saved_model --output_node_names='Postprocessor/ExpandDims_1,Postprocessor/Slice' --saved_model_tags=serve --output_format=tfjs_graph_model saved_model web_model

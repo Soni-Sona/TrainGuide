@@ -1,0 +1,19 @@
+item {
+    id: 1
+    name: 'Türtaster'
+}
+
+item {
+    id: 2
+    name: 'Türe offen'
+}
+
+item {
+    id: 3
+    name: 'Türgriff'
+}
+
+item {
+    id: 4
+    name: 'Türe'
+}
